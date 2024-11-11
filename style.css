@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("image 5 (2).svg");
+}
+
+header{
+    width: 1440px;
+    height: 82px;
+    background-color: hsla(0, 0%, 0%, 1);
+}
+
+
+.yozuv{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.english{
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 20px;
+}
+
+
+.play{
+    color: hsla(0, 0%, 100%, 1);
+    margin-right: 57px;
+    font-size: 20px;
+    margin-left: 38px;
+} 
+
+.play:hover{
+    background-color: hsla(42, 100%, 47%, 1);
+    color: hsla(0, 0%, 0%, 1);
+    transition: .5s;
+}
+
+.bosh{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsla(0, 0%, 13%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    height: 44px;
+}
+
+.pubg{
+    margin-left: 57px;
+    margin-right: 100px;
+}
+
+
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+    gap: 64px;
+    margin-bottom: 20px;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.ecr{
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(42, 100%, 47%, 0.33);
+    width: 966px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 64px;
+    margin-left: 260px;
+}
+
+.pc{
+    width: 235px;
+    height: 72px;
+    background-color: hsla(0, 0%, 0%, 1);  
+    text-align: center; 
+    padding: 15px;
+}
+
+.pc:hover{
+    background-color: hsla(42, 100%, 47%, 1);
+    color:hsla(0, 0%, 0%, 1);
+    transition: .5s;
+}
+
+.console{
+    width: 235px;
+    height: 72px;
+    background-color: hsla(0, 0%, 0%, 1);  
+    text-align: center; 
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 101px;
+    background-color: hsla(0, 0%, 0%, 1);
+    padding: 0px 100px 0px 57px;
+    margin-top: 85px;
+    
+}
+
+.ijtimoiy{
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+}
